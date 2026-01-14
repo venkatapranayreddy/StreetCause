@@ -1,0 +1,25 @@
+Objectives 1 . MemberRegistration 2 . MemberAffiliationApprovalMemberRegistration : IfIOpentheStreetCauseApp ,
+IshouldbeabletoseeLoginandRegister . IfIClickonRegister , IshouldbehaveTwoOption “ SignUpWithGoogle ” “
+SignUpWithFillout ” IfIclickonSignUpwithGoogle , WorkFlowtoGoogleSSOusingOAuth 2 . 0 AfterSigningUpWithGoogle ,
+IShouldbeabletoseeSignUpFormtofillout . BelowFieldsDetailsareMandatorytofillthe ● FullName (
+ShouldbefilledandgreyedoutbecauseialreadydidsignupusingGoogle ) ● EmailID (
+ShouldbefilledandgreyedoutbecauseialreadydidsignupusingGoogle ) ● PhoneNumber ● City ( DropDown : ShouldSelecttheCity )
+● Affiliation ( DropDown : ShoulddisplaytheAffiliationthatareunderthiscityonlyformetoselectone ) ● Role ( DropDown : ) ●
+Approver ● GovtID ● ProfilePicture ● Address ● DigitalSignature ● AcceptTerms & Conditions (
+tobeacceptedthroughacheckbox ) * * ShouldweneedtoaskfewotherdetailssuchasinstagramIDetccIfIClickon “ SignUpWithFillout ”
+ThenIwillFillallthedetailsasaboveincludingNameandEmailID , butTheEmailShouldn ’ tcontain “ @ gmail . com ” .
+OnceAfterIRegister ,
+ANotificationwillbesenttomySelectedApproverfortheAffiliationApprovalandAftermyApproverApprovesmyAffiliationaccount ,
+thenotificationwillgotomyApprover ’ sManagertoapprovemyaccount . OncethatisdonemyAffiliationaccountwillbeactivated ,
+AMemberIDwillbecreatedifthisismyfirstregistrationinthewebsite , ifnot .
+IshouldbeabletologinandseeallmyAffiliationsthatIampartofandIshouldbeabletoaccesstheDashboardofthatAffiliationaswell ,
+ifmyaffiliationaccountisactivated , ifnotIshouldsee “ AccountisnotyetActivated " . MemberAffiliationApproval :
+AfterIloginintotheAffiliationAccount , IshouldbeabletoseeMemberAffiliationApprovalListed . IfIclickonit ,
+Ishouldbeabletosee “ MemberApproval ” , “ AffiliationforMemberApproval ” . IfIClickontheMemberApproval ,
+Ishouldbeabletoseethenewmemberdetailsinbelowlistedformat ● MemberName ● City ● InitialAffiliation ● Role ● PhoneNumber ●
+Detailed ( IfiClickhereishouldbeabletoseePopUptocompletedetailsofthemember ● Action ( Shouldbeabletoseetwooptions {
+Approve , Reject } ificlickrejectishouldseeatextfieldtogivetheReasonforrejection ) .
+IfIClickontheAffiliationforMemberApproval , Ishouldbeabletoseethenewmemberdetailsinbelowlistedformat ● MemberName ● City
+● Affiliation ● Role ● ApproverName ( ShouldseeMember ’ sManagerName ) ● PhoneNumber ● Detailed (
+IfiClickhereishouldbeabletoseePopUptocompletedetailsofthemember ● Action ( Shouldbeabletoseetwooptions { Approve ,
+Reject } ificlickrejectishouldseeatextfieldtogivetheReasonforrejection ) .

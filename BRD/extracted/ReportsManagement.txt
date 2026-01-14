@@ -1,0 +1,39 @@
+Reports : HighLevelDescription : 1 . IwanttodownloadareportinPDF / Sheetformatrelatedtomycurrenttermyear ,
+currentfinancialyear , year - specific , date - specific , andalsotheentirefinancialincome , expenses , cashbill ,
+andtransactionsofmeandmyteam . IshouldbeabletoviewanddownloadreportsseparatelysubModuleSpecificandalsoonamember -
+specificbasis . 2 . IwanttodownloadareportinPDFrelatedtomycurrenttermyear , currentfinancialyear , oranyspecificyear .
+Additionally , Ishouldbeabletodownloadentireprojects , projectexpenses , andeventexpenses .
+shouldbeabletoviewanddownloadthesereportsseparatelyonsubModuleSpecificandalsoonamember - specificbasis . Objectives : ●
+ProjectsReports ● FinancesReports ● MembersReports ● EventsReports ● PrivilegeManagementAccesswillbegrantedstartingfromL
+3 rolesonly . L 3 - L 7 : AfterloggingintotheaffiliationIampartof , IwillnavigatetotheReportssection . ReportOptions : ●
+Finances ● Projects ● Members ● EventsIfISelectFinances : Iwanttoseetheconsolidatedfinancialdataofmyaffiliation ,
+witheachmember ' sfinancesdisplayedinrowsandcolumns . IshouldbeabletodownloadthisdatainExcelorPDFformat .
+ShouldIncludeallFinancialObjectives : ● Income ( One - Time , PassSales , andRecurringPayments ) ● Expenses (
+ProjectandEventExpenses ) ● AdvancesFilterSection : ToretrievespecificdatafordownloadinExcelorPDFformat ,
+Ishouldbeabletoapplythefollowingfilters : ● SelectFinanceType :
+DropdownoptionsincludeFinancialYearorStreetCauseTermYearData . ● SelectYear : Dropdowntoselectyears ( e . g . , 2 0 2 4
+- 2 5 , 2 0 2 5 - 2 6 ) . Newyearsshouldautomaticallyappearuponentry . ●
+ThisoptionwillbegreyedoutiftheFinanceTypeisnotselected . ● SelectCustomStartDate & EndDate :
+Thesefieldswillbegreyedoutifanyotherfilterisselected . ● SelectSpecificFinanceData : Dropdownoptionsinclude : ● Income :
+One - Time , Recurring , PassSales ● Expenses : Project , EventExpenses ● Advances (
+shouldupdatebasedontheselectedFinanceModule ) ( SheetLINK ) Filter 1
+SelectTermSelectYearSelectStartDateSelectEndDateIncomeExpensesAdvancesCityAffiliationProject / EventSelectSelectYear 9 /
+2 8 / 2 0 2 2 7 / 1 7 / 2 0 2 5 SelectSelectButtons ( EnableallthebuttonsonlyifISelecttheRadioButton ) DetailedIncomeDet
+ailedExpenseDetailedAdvancesDetailedProjectDetailedEventDetailedMemberDownloadExcelDownloadPDFSelectMemberIDAffiliaitonC
+ityTransactionIDSourcePaymentModeTime & DateCommentsProofs ( ImgLink ) ApproverAdvancesAmountDebitAmountCreditDonorName
+/ passHolderNameDonor / PassHolderMobileNumberDonor / PassHolderEmailIDProjectTaskProjectCategoryProjectDepartmentTotalA
+mountRadioButtonDonationUPIPanCardRadioButtonSubscriptionRazorPayExpenseProofRadioButtonPassBankTransferRadioButtonProje
+ctExpenseCashRadioButtonEventExpenseIfISelectProjects , IShouldbeabletoseetheconsolidatedProjectsDataofmyaffiliation ,
+witheachmember ’ sfinancesdisplayedinrowsandcolumns .
+IshouldbetoabletodownloadthisdatainExcelorPDFformatShouldIncludeallProjectObjectives : 1 . Selectaffiliation 2 .
+Selectproject 3 . Department 4 . Category 5 . Projectstatus 6 . StartandenddatesFilterSection :
+ToretrievespecificdatafordownloadinExcelorPDFformat , Ishouldbeabletoapplythefollowingfilters : ● SelectFinanceYearType
+: DropdownoptionsincludeFinancialYearorStreetCauseTermYearData . ● SelectYear : Dropdowntoselectyears ( e . g . , 2 0 2
+4 - 2 5 , 2 0 2 5 - 2 6 ) . Newyearsshouldautomaticallyappearuponentry . ●
+ThisoptionwillbegreyedoutiftheFinanceYearTypeisnotselected . ● SelectCustomStartDate & EndDate :
+Thesefieldswillbegreyedoutifanyotherfilterisselected . ● SelectSpecificProjectData : Dropdownoptionsinclude : ●
+Affiliations ( SelecttheAffiliationthatneedstobefiltered , greyedoutifidon ’ thaveaccesstomorethan 1
+affiliationshowthedefaultaffiliation ) Projects ( ShouldshowListoftheProjectsofmyaffiliation ) Department (
+SelecttheDepartmentwhicharelistedintheprojectmanagement ) Category (
+Selectthecategorieswhicharelistedintheprojectmanagement ) . ProjectStatus ( Thisshouldbecoloredbasedonthestatus ,
+Completed - Green , Ongoing - Yellow , etc ) . ShouldIncludeallEventObjectives :

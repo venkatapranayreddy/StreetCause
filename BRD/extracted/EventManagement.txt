@@ -1,0 +1,84 @@
+EventManagementModule : Objectives : Add , Update , ViewEventEventExpensesSellEventPassesPassDesignPassSaleStatus (
+Report ) - WillseethisinReportsModule Add, Update, V iew Event: Ideally ,
+theuserjourneyinAddUpdatepassoperationswillnotbeavailableforL 1 - L 2 roles . L 3 - L 8 : Afterloggingintomyaffiliation
+, Ishouldbeabletoseethe " Events " tab . Underthis , Ishouldseetheoptions : Passes , Tasks , andEvents . IfIclickon "
+Events " IshouldbeabletoseeoptionstoAddEvents , UpdateEvents , andViewEvents . ViewEvents :
+IshouldbeabletoseethepassdetailsthatIhavecreatedinthepast . AddPasses & UpdateEvents : WhenIclickonthe " AddEvents "
+option , Iwanttobeabletoenterthefollowingdetails . Allfieldsbelowaremandatoryunlessspecifiedotherwise : ●
+AffiliationName : Thisfieldshouldbegreyedoutandauto - filledwiththecurrentaffiliationIamloggedinto . ( Optional :
+IfIamleadingmultipleaffiliationsthenIshouldhaveplusicontoaddtheaffiliationnames ) ●
+RolesIshoulddisplayalltherolesundermyRoleintheEachInputblockandbegreyedout . ●
+TargetPassSaleIwanttogivethetargetpasssalesinputfieldbesideeachroleIhavelistedabove . ● EventName ● StartDate ● EndDate
+● StartTime ● EndTime ● Duration : Thisfieldshouldbegreyedoutandauto - filledbasedonthestartdate , enddate , starttime ,
+andendtime . ● EventLocation ● CreateaPassDesign :
+ShouldlinktheCanvaDesignhereeitherasLinkorButtonnavigateandgetthelinkDesignofthePass . WorkflowonceIclickontheButton -
+Ishouldgotomycanvaaccount , selectthepassdesignthatIhavemade , andcomebacktothepagewiththatpassdesign . ●
+TermsandConditions ● EventMode : Dropdownwithoptions - In - person , Online , Hybrid . ● MobileNumber ( PointofContact )
+● EmailAddress ( PointofContact ) ● GoogleMapLocationLink : Optional ( iftheeventisonline ) . ● CertificateOption :
+YesorNo . ● EventDocument : Optional . Allowsuploadinganydocumentrelatedtotheevent . ● PassName ● PassPrice ●
+AddPassCategoriesButton : Optional , shouldalwaysbeenabled . Clickingitallowsenteringadditionalpassnamesandprices .
+Onceallmandatoryfieldsarefilled , onlythenshouldthe " AddEvent " buttonbeclickable . Uponclicking " Add , "
+anotificationwillbesenttothecorrespondingL 4 foreventconfirmationapproval . IfL 4 doesnotapprove ,
+theeventstatusremainspending . OnceL 4 approves , itmovestoL 5 forfinalapproval . UpdateEvent : L 3 :
+IshouldbeabletoedittheEventsthatIhavecreatedandupdatethem . Noadditionaloptionsarerequired . AftermyUpdateissubmitted ,
+AnotificationwillbesenttothecorrespondingL 4 foreventconfirmationapproval . IfL 4 doesnotapprove ,
+theeventstatusremainspending . OnceL 4 approves , itmovestoL 5 forfinalapproval . L 4 - L 8 :
+Theycanupdatepassesandthestatusofeventapprovals . ● StatusofEvent : Dropdownwithdefaultstatusas " Pending " ;
+otheroptionsinclude " Approved " and " Terminated " . ● Comments : Optional ; iftheeventisterminated ,
+thereasonmustbeprovided . ● UpdateButton : Clickingthiswillsavethechanges .
+Passsaleswillthenbeopenformembersoftheaffiliationtosellthepasses . SellEventPasses : L 1 - L 2 :
+IftheEventiscreatedbymyL 3 orhigherroleinmyaffiliation , IshouldbeabletoseetheSellEventPassestabtonavigate .
+IfIclickonit , Ishouldbeabletosee , withtheaffiliationnamethatIampartof , thePassDesignbutton , myPassSaleTarget ,
+PassSaleReport , AddTasksandbelowIwanttoseetheformtosellthepasses . IfIclickthePassDesignbutton ,
+IwanttoseethepassdesignthatIwillbesendingtothepassbuyer . IfIclicktheMyPassSaleReportbutton ,
+IshouldbeabletoseethepassesthatIhavesoldtothebuyersalongwithPassID , BuyerName , BuyerPhonenumber , BuyerEmailID ,
+NoofPasses , Paymentmode , andPassView ( hereIshouldbeabletoseethepassdesignandhavebuyerdetailsonit ) .
+SeethetotalpassesthatIhavesoldandbesidethat , IshouldbeabletoseemyPassSaleTarget . ThisTargetwillsetwhenmyL 3 &
+aboverolesareCreatingtheEvent . BelowIwanttobeabletoenterthefollowingdetails :
+Allthebelowfieldsaremandatoryunlessspecified : ● Datefield , butthisshouldalreadybethereandgreyedout .
+Thecurrentdateshouldalreadybethereinthisfield . ● PaymentMode ( Dropdown - UPI , BankTransfer , RazorPay , Cash ) ●
+BuyerName ● BuyerMobileNumber ● BuyerEmailID ● SelectthePasstype ( Dropdown -
+Selectthepasscategorywhichhasdifferenttypesofpassnamesandprices . ( ThesedetailswillbefilledwhileotherL 3 &
+aboverolesaddthepassdetails ) ) ● No . OfPasses ● TotalAmountfield , butthisshouldalreadybethereandgreyedout .
+Calculatethetotalamountthatismultipliedbythepasspriceandpassprice . WorkflowifIselecteitherUPIorRazorPaypaymentoption :
+Evenifoneofthemandatoryfielddetailsisnotentered , Ishouldn ’ tbeabletoproceedfurther .
+AfterIhaveenteredalltheabovemandatoryfieldsandsubmit ,
+IshouldbeabletoseeasynopsisofthedetailsIhaveenteredfordoubleconfirmation .
+Iwillhaveanoptiontogobackifanydetailsareincorrect . CorrectthedetailsandseethesynopsisagaintillIconfirmit .
+AfterIconfirm , IshallberedirectedtotheRazorPaylinkwiththeQRdetailsorweblinkthatcanbesharedwiththedonor (
+Razorpayintegrationhere ) . Afterthepaymentisdone , IwanttoseethesamepassdetailsthatIhaveenteredandPassIDshouldgeneratea
+uniquepassIDthatwillbesenttothebuyerafterthepurchaseonmypassdesign .
+IwanttheamounttobecumulativelyaddedintomytotalfundsandRedirectBacktopasssaleformpages :
+showthetotalnumberofpassesbesidePassSaleTargetIhavesoldontopofthepasssaleform .
+WorkflowifIselecttheBankTransferpaymentoption : IfIselecttheBankTransferoption , andallthemandatoryfieldsareupdated ,
+andIsubmitthedetails , thenIshouldbeabletoseeasynopsisofthedetailsIhaveenteredfordoubleconfirmation .
+Iwillhaveanoptiontogobackifanydetailsareincorrect . CorrectthedetailsandseethesynopsisagaintillIconfirmit .
+AfterIconfirm ,
+ItShouldgenerateauniquepassIDthatwillbesenttothebuyerandthepassDesignshouldimmediatelysendtothebuyerviaText & Email ,
+SimultaneouslyAnotificationshallgotomycorrespondingL 4 forapprovalofthepaymenttransaction . IftheL 4 hasn ’
+tapprovedthepayment , thenthestatusofthepaymentshouldbeapprovalpending . AfterL 4 hasapprovedtherequest , itwillgotoL 5
+forapproval . AfterapprovalfromL 5 , OnlythentheQRcode / passidwillgetactivated .
+IwanttheamounttobecumulativelyaddedintomytotalfundsandalsoshowthetotalnumberofpassesIhavesoldontopofthepasssaleform . L
+1 - L 8 havethesameuserjourneyinSellPasses . AdditionalL 3 - L 8 : - WhenIClickmyPassSaleReport ,
+IShouldseethePassesDetailsthatISoldandMyTeammemberwisePassDetailsthattheyhavesoldaswell . IfaL 4 orL 5
+raisesfundsthroughBANKTRANSFER , whatistheworkflowlike ? TheL 4 , L 5
+WillcheckthebankaccountofStreetCauseandShouldbeApprovedbyL 5 . Event T asks : Add T asks, V iew T ask
+AfterLoginintoAffiliation , IshouldbeabletoseetheSellEventPassestabtonavigate . IfIclickonit , Ishouldbeabletosee ,
+withtheaffiliationnamethatIampartof , thePassDesignbutton , myPassSaleReport ,
+TasksandbelowIwanttoseetheformtosellthepasses . IfIclickon “ Tasks ” , IshouldbeabletoseeAddTask , ViewTasks .
+IfIClickon “ AddTask ” : IShouldbeabletoseetheFormUnderneathBelowIwanttobeabletoenterthefollowingdetails :
+Allthebelowfieldsaremandatoryunlessspecified : EventName ( ShouldbeGreyedOutandshouldtheEventthatIampresentinside )
+PurchaseItemPurchaseDatePurchasePlaceAddImages ( IShouldbeabletoaddmorethanoneImagebutoneImageismandatory )
+DescriptionAfterFillingtheMandatoryDetailsIShouldbeabletoSubmittheTask . AnotificationwillbesenttothecorrespondingL 3
+forTaskPurchaseconfirmationapproval . IfL 3 doesnotapprove , theTaskstatusremainspending . OncetheL 3 Approves ,
+IShouldbeabletogotheFinancesModule , AddEventExpenses , seemyTaskandgotoPurchase . ( ShouldVisitforClearBRD ) .
+IfIClickon “ ViewTask ” : IShouldabletoseetheallTheTasksthathavebeenaddintothisEvent :
+EventNamePurchaseItemPurchaseDatePurchasePlaceEditTaskAddExpenses (
+WorkflowwillbetoAddEventExpenseFormtothatparticularTask ) Wewillnotupdateasofnoweventexpenseshere ? ? Pass Design:
+PassBuyerJourney : AsaIPassBuyerIshouldreceiveFirstTextMessage :
+IntheTextMessageIwanttoseetheEventinformationandLinktoViewthePasswithashirtdescriptionabouttheEventaswell .
+ShouldreceiveSecondTextMessage : OnedaybeforetheEventIwanttoseeGenericEventMessageasReminder . EmailofthePasstome :
+IwanttoseethepassDesignthatSCTeamhasCreatedandsentittomeOnitIShouldbeabletoseetheUniquePassID , PassBuyerName ,
+PassBuyerPhoneNumber , PassBuyerEmailID , TotalNumberofPasses , QRcodeofthePassTermsandConditionsoftheEventShouldseeanyD
+ocumentRelatedtothatEventasanAttachmentinmyEmailorLinkthroughthephoneSponsorsLogo ’ softheEventMobileNumber (
+PointofContact ) EmailAddress ( PointofContact )

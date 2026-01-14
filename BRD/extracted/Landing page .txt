@@ -1,0 +1,46 @@
+streetcause . orglandingpage : KeyPrinciples : 1 . Clean , clear , noclutter 2 . Clearmessage :
+ImpactthatStreetCausehasmade , whyshouldsomeonedonatetous 3 . Clearcalltoaction ( donate ) withcontrastingbutton , vi
+sualhierarchytoemphasise 4 . Noinformationoverloadlikecurrentlayout . 5 . Optimisationformobile 6 . Na vi gationto -
+Whoweare , VisionariesbehindStreetCause , OpenLibraries , StreetCauseonSocialMedia , Updates , Complaint / Whistleblower
+, StreetCauseintheMediaHomepageWhoweare ( onhover ) Meettheteam ( onclick ) CEO ’ sOf fi ce / PCCity 1 City 2
+OurProjectsMegaProjects / Spotlight 2 0 2 3 - 2 4 2 0 2 2 - 2 3 AlumniAlumniSpotlight 2 0 2 3 - 2 4 2 0 2 2 - 2 3
+TheFoundersFoundersPageMedia ( onclick ) MediaPage ( Articles , eventpictures ) OpenLibrary ( onclick ) AuditReports 2 0
+2 3 - 2 4 2 0 2 2 - 2 3 AnnualReports 2 0 2 3 - 2 4 2 0 2 2 - 2 3 PoliciesConstitutionWaysofworkingComplaints ( Onclick
+) WhistleblowerContactUsContactUspageForVolunteers ( OnHover )
+LoginSignUpSCmemberloginpageVolunteerKitDonateDonatePortal - Highqualitypictures fr omeitherrun , OGhumanchain , ora vi
+beyeventwithalotofpeoplenexttothegivencontent - Donatebuttontobeclickabletogotodonatemodule - ’ Whoweare ’ tobeontopbar
+, whencursorishovered , toshowasbuttons : ‘ aboutus ’ ‘ ourprojects ’ ‘ Peoplebehindthecause ’ whenhoveredtoshowdropdown
+‘ Founders ’ , ‘ TheTeam ’ and ‘ Alumni ’ ‘ Media ’ , ‘ OpenLibrary ’ ‘ contactus ’ tobebuttons . ‘ Forvolunteers ’
+buttonwhenhoveredover , toshowdropdown ‘ login ’ and ‘ Register ’ and ‘ volunteerhandbook ’ forthevolunteers .
+Secondpage ( FirstScrollDown ) - A ft erscrolling , topbartoaccommodatebluecolourdonatebuttonontopright . - En
+tiretopbartohaveadifferentbackground - Permanentprojectstobehyperlinkedtoprojectspage .
+Contenttobegivenwithagoodbackgroundpictureofapermanentprojectwithlowopacity - Transparencytobehyperlinkedtoopenlibrary ,
+certi fi cates / 8 0 g , auditreportspage - Vision 2 0 3 0 tohaveyellowbackground ( mostpleasing / positivecolour )
+andinfoabout vi sion 2 0 3 0 ThirdPage ( SecondScroll ) - Waysofworking , Tenets -
+CurrentcitiesnameswithlinkstoprojectspagesofthosecitiesFourthpage ( thirdscroll ) - testimonials -
+SCinmediaPostLoginLandingPage : Theinitiallandingpagepostloginissupposedtodisplaythenameoftheuserandtheaf fi
+liationsthattheuseriscurrentlypartof . Fromhere , theuseristoselecttheiraf fi liationwhichwillredirectthemtotheaf fi
+liationlandingpage . Importantpointers : - En surethattheStreetCauselogoisdisplayed -
+Avoidemptywhitespacespreferablyusingtextures / noisethatisbluethemed ( Orgthemeblue / white ) - Af fi
+liationsassociatedwiththeusertobedisplayedclearlywithaf fi liationnameandroleheldbytheuserintheaf fi liation - Af fi
+liationlogoontheboxoftheaf fi liationwouldbeevenmoreintuitivePostselectionofaffiliation : A ft ertheaf fi
+liationisselected , theaf fi liationlandingpageistodisplaythepro fi lepictureoftheuser , nameoftheuserselectedaf fi
+liationandroleheldbytheuseronthetoprightatalltimesinabutton ( forallmodules , pages ) .
+Whenselectingthisbuttonadropdownshouldappear , showingmypro fi le , changepassword , andsignout . Onthecentreofthepage ,
+thepictureoftheuserasuploadedistoappear , belowwhichthename , designatedmanager , af fi liationandroleistobementioned ,
+andabuttontodisplayIDCardoftheuser . Onthele ft side ,
+asidebarcontainingnamesofmodulesistobedisplayedaccordingtothepermissionsandleveloftheuser . Commonmodulesforalllevelsare
+: 1 . ProjectManagement 2 . FinanceManagement 3 . SellPass 4 . Reports 5 . OpenLibrary 6 . AboutUponScrollingdown ,
+alllevelsofusersaretoseethestatisticsofthepre vi ousyearinStreetCause ,
+thedatashouldbeupdatedthroughtheadminpageofthewebsite , dataisnottobehardcoded . Alinegraphshowingyearonyeargrowth /
+numbersoflivesimpacted , fu ndraise , expense , thedatashouldbeupdatedthroughtheadminpageofthewebsite ,
+dataisnottobehardcoded . Thesidemenuistobecollapsedintoahamburgeruponscrollingdown . UserPersona : Age : 1 9 - 2 2
+DigitalLiteracy : Grewupinthedigitalage , abletoidentifycommonicons , na vi gatethroughapps , webpageswitheaseDemeanor :
+ShortAttentionspan , shouldbeabletocompletetaskswithminimuminteractioncostPreferences : CleanUI ,
+minimalisticdesignLifestyle : UsestheStreetCauseappquicklyinbetweenclasses , duringbreak , ora ft
+ercollegetogetpermissions , createevents , orbrowsethroughstatswhenneededmostly . - Asauserofanylevel , Ishouldbeableto
+fi rstseetheaf fi liationsthatIamapartof . Then , Ishouldbeabletoselectmyaf fi liationandbetakentomylandingpage . -
+Atthelandingpage , Ishouldbeabletona vi gatetoallmymodulesataglance , showmyStreetCauseIDcardwherever ,
+orquicklyseestatisticsorshowittoanyoneI ’ mpitchingto . - Iwouldliketoseemycurrentlyselectedaf fi
+liationandroleatalltimesthroughoutmyna vi gationsothatI ’ mnotconfused , orwastingtimeraisingwrongrequests . -
+Iwantthelandingpagetolookpleasantandclean

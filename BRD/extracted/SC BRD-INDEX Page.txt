@@ -1,0 +1,8 @@
+1 . ProjectManagement - finefornow ( butdofinalcheck ) 2 . EventManagement - finefornow ( butdofinalcheck ) 3 .
+FinanceManagement - pranaytocheckwithrohitha 4 . MemberManagement - rohithareviewpending 5 . Reports -
+rohithareviewpending 6 . ChangeManagement - pranayneedtoworkonit 7 . CertificateManagement - shouldcheckwithakshith ,
+ksheeratocloseit 8 . AlumniManagement - shouldcheckwithakshith , ksheeratocloseit 9 . AffiliationManagement ( Obsolete )
+1 0 . PrivilegeManagement ( Obsolete ) 1 1 . DashBoardVolunteerInterface ( FrontEnd ) 1 . DashBoard 2 .
+ProjectManagement 3 . EventManagement 4 . FinanceManagement 5 . MemberManagementAdminInterface ( BackEnd ) 1 .
+ProjectManagement 2 . EventManagement 3 . FinanceManagement 4 . MemberManagement 5 . Reports 6 . ChangeManagement 7 .
+CertificateManagement 8 . AlumniManagement

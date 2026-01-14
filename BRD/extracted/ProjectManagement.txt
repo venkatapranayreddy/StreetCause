@@ -1,0 +1,93 @@
+ProjectManagementModule : Objectives : Create , Update , ViewProjectsCreate , Update , ViewTasksAddExpensesIdeally ,
+theuserjourneyinAddUpdateProjectswillnotbeavailableforL 1 - L 2 roles . L 3 - L 8 : Afterloggingintomyaffiliation ,
+Ishouldbeabletoseethe " Projects " tab . IfIclickandgototheProjectTab , IwillseetheProjectsof “ myAffiliationname ”
+andIshouldseetheAddNewProjectandExistingProjects . Underneaththis ,
+IshouldbeabletoseethelistofbelowfieldstofiltertheProjects : ● SelectAffiliation (
+WillbeaDropDownifanyoftheAffiliationisReporttomeorshouldbeGreyedOutandshowonlytheaffiliationthatIampartof ) ● ProjectId
+( WillbeaDropDownwithalltheProjectIDthatarepartofAffiliationthatLoggedIn )
+IwillhaveaButtontoSearchafterISelecttheFilterFields , aClearButtontoCleartheFieldsoftheFilters . Belowthat ,
+IwillseeAllProjectsthatIfiltered : ● ProjectID ( IdwillbecreatedwhentheProjectisApproved ) ● ProjectName (
+LinktoViewalltheTasksRelatedtoProjectName ) ● ProjectStartDate ● ProjectEndDate ● ProjectEstimatedBudget ● Status (
+ItwillbeGreyedoutandhavetheCurrentStatus ; { Status : Active , Pending , Closed } ) ● EditProject (
+TheflowwillbethesameasAddNewProject ) WorkflowifIClickProjectName ( Create, Update, V iew T asks) :
+IwillredirecttotheseeViewTasksthatIclickedundertheproject : HereIshouldbeabletoseeTasksof “ ProjectName ” . Besidesthat
+, IshouldbeabletoseetheAddTasks . BelowIshouldbeabletoViewListoftheseTasks : ● TaskID ● TaskName ● ProjectName ●
+AffiliationName ● TaskDate ● TaskVenue ● No . ofPeopleImpacted ● TotalAmountSpent ● Status ● EditTask (
+ButtontoUpdateaTask ) ● AddExpenses ( WorkflowwillbetoAddExpenseFormtothatparticularTask ) Workflow : IfIclickonEditTask
+, itshouldOpenasaPopUpModeltoEdittheTask : ShouldbeabletoseeandfilltheBelowDetails :
+AllDetailswillbefilledwhilecreatingtheTask . Incaseifanyfieldisremoved , thenIshouldn ’ tbeabletosubmittheform . ●
+ProjectName ( ShouldbeGreyedout . FilltheProjectcurrently ) ● TaskID ● TaskName ● TaskDate ● TaskVenue ● No .
+ofPeopleImpacted ● TaskImage 1 ● TaskImage 2 ● TaskImage 3 ● TaskImage 4 ● TaskImage 5 ● TaskDescription ● TaskStatus (
+ItwillbeGreyedoutandhavetheCurrentStatus ; { Status : Active , Pending , Closed } ) OncealltheDetailsareupdated ,
+thenIshouldbeabletoclickon “ UpdateTask ” ontheform & ReturntoTasksView . Uponclicking " UpdateTask , "
+anotificationwillbesenttothecorrespondingL 4 forTaskconfirmationapproval . IfL 4 doesnotapprove ,
+theTaskstatusremainspending . OnceL 4 approves , itnotifiesmetomovetoL 5 forfinalapproval . AfterL 5 Approves (
+ItwillbeActiveStatus ) , IshouldbeabletoresumeaddingtheTaskExpenses . AddTasks :
+IfIclickonAddTasksWorkflowifIclickonAddTasksitshouldOpenasPopUpModeltoEdittheTask :
+Shouldbeabletoseeandfillthebelowdetails , allfieldsaremandatoryunlessmentioned . ● ProjectName ( Shouldbegreyedout ,
+filltheprojectcurrently ) ● TaskName ● TaskDate ● TaskVenue ● No . ofPeopleImpact ● TaskImage 1 ● TaskImage 2 ●
+TaskImage 3 ● TaskImage 4 ● TaskImage 5 ● TaskDescription ● TaskStatus ( Itwillbegreyedoutandhavethecurrentstatus ; {
+Status : Active , Pending , Closed } ) OnceallthedetailsarefilledthenIshouldbeabletoclickon “ AddTask ” ontheform &
+ReturntoTasksView . Uponclicking " AddTask , " anotificationwillbesenttothecorrespondingL 4 fortaskconfirmationapproval
+. IfL 4 doesnotapprove , thetaskstatusremainspending . OnceL 4 approves , itnotifiesmetomovetoL 5 forfinalapproval .
+AfterL 5 approves ( itwillbeActivestatusandTASKIDwillbecreated ) andIshouldbeabletostartmakingthetaskexpenses .
+AddNewProject / EditExistingProject : WorkflowifIclickonAddNewProject : IwillredirecttotheAddNewProjectsView , (
+Thisviewwillbethesameforeditprojectaswell , alldetailsofthatprojectneedtobepopulatedinthosefields ) BelowIwillseetheform
+& allthebelowfieldsaremandatorytofillbeforeaddingthenewprojectoreditingthecurrentprojectunlessmentioned . ● ProjectName
+● Affiliation (
+willbedropdownifanyoftheaffiliationisreportedtomeorshouldbegreyedoutandshowonlytheaffiliationthatIampartof ) ● Category
+( DropDown : CATEA , CATEB , CATEC ) ● Department ( DropDown : WillbeDropDownabletoselectmultipledepartments : Education
+, Environment , WomenEmpowerment , SkillDevelopment , Health & Hygiene , Infrastructure ) ● ProjectStateDate ●
+ProjectEndDate ● ProjectBudget ● ProjectImage 2 ● ProjectImage 3 ● ProjectImage 4 ● ProjectImage 5 ● SurveyReport (
+DescriptionField ) ● Status ( ShouldbeGreyedoutandhaveCurrentstatusoftheProject , ifit ’ sNewProjectitwon ’
+thaveanythingitwilljustbeblank ) Uponclicking " AddProject " orSubmitanotificationwillbesenttothecorrespondingL 4
+forProjectconfirmationapproval . IfL 4 doesnotapprove , theProjectstatusremainspending . OnceL 4 approves ,
+itnotifiesandmovestoL 5 forfinalapproval . AfterL 5 Approves ( ItwillbeActiveStatusandProjectIDwillbecreated )
+andIshouldbeabletostartmakingtheCreatedNewTasks . RAWDown ( JustReference ) ProjectManagementModule : Objectives :
+Create , Update , ViewProjectsCreate , Update , ViewTasksAddExpensesCreate , Update , ViewProjectsIdeally ,
+theuserjourneyinAddUpdateProjectswillnotbeavailableforL 1 - L 2 roles . L 3 - L 8 : Afterloggingintomyaffiliation ,
+Ishouldbeabletoseethe " Projects " tab . IfClickandgototheProjectTabIwillseetheProjectsof “ myAffiliationname ”
+andIshouldseetheAddNewProjectandExistingProjectsUnderneaththisiShouldbeabletoseethelistofBelowFieldstoFiltertheProjects
+: ● SelectAffiliation (
+WillbeDropDownifanyoftheAffiliationisReporttomeorshouldbeGreyedOutandshowonlytheaffiliationthatiampartoff ) ● ProjectId
+( WillbeaDropDownwillalltheProjectIDthatarepartofAffiliationthatLoggedIn )
+IwillhaveaButtontoSearchafteriSelecttheFilterFields , ClearButtontoCleartheFieldsoftheFilters .
+BelowthatIwillseeAllProjectsthatIfiltered : ● ProjectID ( IdwillbecreatedwhentheProjectisApproved ) ● ProjectName (
+LinktoViewalltheTasksRelatedtoProjectName ) ● ProjectStartDate ● ProjectEndDate ● ProjectEstimatedBudget ● Status (
+ItwillbeGreyedoutandhavetheCurrentStatus ; ) { Status : Active , Pending , Closed } ● EditProject (
+TheflowwillbesameasAddNewProject ) WorkflowifIClickProjectName ( Create , Update , ViewTasks ) :
+IwillredirecttotheseeViewTasksthaticlickedundertheproject : HereIShouldbeabletoseeTasksof “ ProjectName ” ,
+BesidethatIShouldbeabletoseetheAddTasksBelowIshouldbeabletoViewListthisTasks : ● TaskID ● TaskName ● ProjectName ●
+AffiliationName ● TaskDate ● TaskVenue ● NoofPeopleImpacted ● TotalAmountSpent ● Status ● EditTask ( ButtonToUpdateaTask
+) ● AddExpenses ( WorkFlowwilltoAddExpenseFormtothatparticularTask )
+WorkflowifIClickonEditTaskitshouldOpenasPopUpModeltoEdittheTask : ShouldbeabletoseeanffilltheBelowDetails :
+AllDetailswillbefilledwhilecreatingtheTaskincaseifanyfieldisremovedthenishouldn ’ tabletosubmittheform ● ProjectName (
+ShouldbeGreyedoutfilltheProjectcurrently ) ● TaskID ● TaskName ● TaskDate ● TaskVenue ● No . ofPeopleImpact ● TaskImage
+1 ● TaskImage 2 ● TaskImage 3 ● TaskImage 4 ● TaskImage 5 ● TaskDescription ● TaskStatus (
+ItwillbeGreyedoutandhavetheCurrentStatus ; ) { Status : Active , Pending , Closed }
+OncealltheDetailsareupdatedthenishouldbeabletoclickon “ UpdateTask ” ontheform & ReturntoTasksView . Uponclicking "
+UpdateTask , " anotificationwillbesenttothecorrespondingL 4 forTaskconfirmationapproval . IfL 4 doesnotapprove ,
+theTaskstatusremainspending . OnceL 4 approves , ItnotifymovestoL 5 forfinalapproval . AfterL 5 Approves (
+ItwillbeActiveStatus ) andIShouldbeabletoresumeaddingtheTaskExpenses . AddTasks :
+IfIClickonAddTasksWorkflowifIClickonAddTasksitshouldOpenasPopUpModeltoEdittheTask :
+ShouldbeabletoseeandfilltheBelowDetails , AllFieldsareMandatoryunlessMentioned ● ProjectName (
+ShouldbeGreyedoutfilltheProjectcurrently ) ● TaskName ● TaskDate ● TaskVenue ● No . ofPeopleImpact ● TaskImage 1 ●
+TaskImage 2 ● TaskImage 3 ● TaskImage 4 ● TaskImage 5 ● TaskDescription ● TaskStatus (
+ItwillbeGreyedoutandhavetheCurrentStatus ; ) { Status : Active , Pending , Closed }
+OncealltheDetailsarefilledthenishouldbeabletoclickon “ AddTask ” ontheform & ReturntoTasksView . Uponclicking " AddTask
+, " anotificationwillbesenttothecorrespondingL 4 forTaskconfirmationapproval . IfL 4 doesnotapprove ,
+theTaskstatusremainspending . OnceL 4 approves , ItnotifymovestoL 5 forfinalapproval . AfterL 5 Approves (
+ItwillbeActiveStatusandTASKIDwillbecreated ) andIShouldbeabletostartmakingtheTaskExpenses . AddNewProject /
+EditExistingProject : WorkflowifIClickonAddNewProject : IwillredirecttotheAddNewProjectsView , (
+ThisViewwillbesamefroEditProjectaswell , AllDetailsofthatprojectneedstobepopuplatedonthosefields ) BelowiwillseetheForm
+& AllthebelowFieldsaremandatorytofillbeforeaddingthenewprojectorEditingtheCurrentProjectunlessmentionedit . ●
+ProjectName ● Affilaition (
+WillbeDropDownifanyoftheAffiliationisReporttomeorshouldbeGreyedOutandshowonlytheaffiliationthatiampartoff ) ● Category (
+DropDown : CATEA , CATEBCATEC ) ● Department ( DropDown : WillbeDropDownabletoselectmultipledepartments : Education ,
+Environment , WomenEmpowerment , SkillDevelopment , Health & Hygiene , Infrastructure ) ) ● ProjectStateDate ●
+ProjectEndDate ● ProjectBudget ● ProjectImage 2 ● ProjectImage 3 ● ProjectImage 4 ● ProjectImage 5 ● SurveyReport (
+DescriptionField ) ● Status ( ShouldbeGreyedoutandhaveCurrentstatusoftheProject , ifitsNewProjectitwon ’
+tanythingitwilljustbeblank ) Uponclicking " AddProject " orSubmitanotificationwillbesenttothecorrespondingL 4
+forProjectconfirmationapproval . IfL 4 doesnotapprove , theProjectstatusremainspending . OnceL 4 approves ,
+ItnotifymovestoL 5 forfinalapproval . AfterL 5 Approves ( ItwillbeActiveStatusandProjectIDwillbecreated )
+andIShouldbeabletostartmakingtheCreatedNewTasks .

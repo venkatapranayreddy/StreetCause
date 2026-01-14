@@ -1,0 +1,81 @@
+Finance : TheobjectivesoftheFinancemoduleareto : - GenerateIncome - TrackExpenses - ViewTotalFunds -
+ViewIncomeandExpenseDashboardsbylevel , affiliate , city , etc . . ( P & L ) -
+MaintainallthedataintheFinancedatabasetogeneratereports & dashboardsINCOME : TheobjectiveoftheIncomeportalistoeithergene
+rateaQRcodeoruploadBankTransferscreenshotsthroughwhichincomecanberaisedforStreetcauseUserJourney :
+AsaUseroftheStreetCauseApp , withthehelpoftheINCOMEsubmodulewithintheFinancemodule ,
+IshouldbeabletoraisefundsbyeithergeneratingaQRCode , weblinkorattachingthepaymentscreenshotoftheBankTransferWithinIncome
+, Iwillhavetwooptions . 1 . ONETIME 2 . RECURRINGONETIME : IfIclicktheOneTimeOption ,
+Iwanttobeabletoenterthefollowingdetails : Allthebelowfieldsaremandatoryunlessspecified -
+ChooseAffiliatefromadropdownwiththelistofAffiliates - IsthisrequiredforL 1 ? IsthisgoingtobedifferentforL 1 vsL 4 vsL 8
+? Becausewehavewrittenthattheuserjourneyisthesame ? Tobeclarified . - PaymentMode ( Dropdownwiththreeoptions - UPI ,
+WebLink , BankTransfer ) - DateFieldbutthisshouldalreadybethereandgreyedout . CurrentDateshouldalreadybethereinthisfield
+- DonorName - DonorMobileNumber - DonorEmailID - Amount - PANCARDPANCARDismandatoryonlyintwocases . 1 . If 8 0
+GisselectedasYES 2 . Iftheamount > 5 0 , 0 0 0 - 8 0 GCertificate ( DropdownwithYes , No )
+Ishouldbeabletoselectoneoftheoptionsin 8 0 Gonlyiftheamountis > 1 0 , 0 0 0 . Else , Ishouldn ’ tbeabletodoanythinginthe
+8 0 Gsection . Itshouldbegreyedout . - PaymentProof (
+PaymentProofshouldbegreyedoutandonlyenabledifBankTransferoptionisselected ) . IfBankTransferisselected ,
+thenPaymentProofismandatory - CommentsWorkflowifIselecteithertheUPIortheWebLinkPaymentoption .
+Evenifoneofthemandatoryfielddetailsarenotentered , Ishouldn ’ tbeabletoproceedfurther .
+AfterIhaveenteredalltheabovedetailsandSubmit , IshouldbeabletoseeasynopsysofthedetailsIhaveenteredfordoubleconfirmation
+. Iwillhaveanoptiontogobackifanyofthedetailsareincorrect . CorrectthedetailsandseethesynopsisagaintillIconfirm .
+AfterIconfirm , IshallberedirectedtotherazorpaylinkwiththeQRdetailsortheweblinkthatcanbesharedwiththedonor (
+RazorpayIntegrationhere ) Afterthepaymentisdone , IwanttheamounttobecumulativelyaddedintomyTOTALFUNDS .
+Afterthepaymentisdone , thedonorshouldareceiveareceiptofthepaymentWorkflowifIselecttheBankTransferPaymentoption .
+IfIselecttheBankTransferOption , andallthemandatoryfieldsareupdated , andISubmitthedetails ,
+thenIshouldbeabletoseeasynopsysofthedetailsIhaveenteredfordoubleconfirmation .
+Iwillhaveanoptiontogobackifanyofthedetailsareincorrect . CorrectthedetailsandseethesynopsisagaintillIconfirm . BelowL 3
+AfterIconfirm , anotificationshallgotothecorrespondingL 4 forapprovalofthepaymenttransaction . IftheL 4 hasn ’
+tapprovedthepayment , thenthestatusofthepaymentshouldbeapprovalpendingAfterL 4 hasapprovedtherequest , itwillgotoL 5
+forapproval . AfterapprovalfromL 5 , theamountshallbeaddedtomyTOTALFUNDSL 4
+andAboveRECURRINGPAYMENTIfIselecttheRecurringPayment , Iwanttobeabletoenterthefollowingdetails :
+Allthebelowfieldsaremandatoryunlessspecified - ChooseAffiliatefromadropdownwiththelistofAffiliates - PaymentMode (
+Dropdownwiththreeoptions - UPI , WebLink , BankTransfer ) - DonorName - DonorMobileNumber - DonorEmailID -
+SubscriptionAmountperMonth ( Amountshouldbeentered ) - Duration ( HaveadropdowninYrs ) - PANCARD (
+UploadacopyofthePANCARD ) - 8 0 GCertificate ( DropdownwithYes , No ) Ishouldbeabletoselectoneoftheoptionsin 8 0
+Gonlyiftheyearlyamountis > 1 0 , 0 0 0 . Else , Ishouldn ’ tbeabletodoanythinginthe 8 0 Gsection . Itshouldbegreyedout .
+Afterallthemandatoryfieldsareupdated , andISubmit ,
+thenIshouldbeabletoseeasynopsysofthedetailsIhaveenteredfordoubleconfirmation .
+Iwillhaveanoptiontogobackifanyofthedetailshttps : / / meet . google . com / raf - kfrc - docincorrect .
+CorrectthedetailsandseethesynopsisagaintillIconfirm . AfterIconfirm ,
+IshallberedirectedtotherazorpaylinkwiththeQRdetailsthatcanbesharedwiththedonor ( RazorpayIntegrationhere )
+ForRecurringPayment , IwanttheamounttobeaddedintoTOTALFUNDSonlyafterthepaymentforthecorrespondingmonthisdone .
+ThebelowtwohavetobeincludedintheTotalFundsSectionDONATE . STREETCAUSE . ORGIfadonordonatesusingthedonate . streetcause .
+organdmentionstheSCIDoftheL 1 volunteer ,
+thisamountshouldbeconsideredasanincomeandcumulativelyaddedintotheTOTALFUNDSoftheL 1 PASSSALESIfIraisefundsunderPASSSALES
+, thosefundsshouldalsobeconsideredasINCOMEandaddedcumulativelyintomyTOTALFUNDSL 1 - L 8 havethesameUserJourneyinINCOME :
+* IfaL 4 orL 5 raisesfundsthroughBANKTRANSFER , whatistheworkflowlike ? EXPENSES : TheobjectiveoftheEXPENSESmoduleistotr
+acktheexpensesincurredbytheStreetCauseteamtocarryoutvariousactivitiesrelatedtoSCAsaUser , whenIentertheExpensesmodule ,
+Iwanttoseethebelowthreesubmodules : - FundRaisingExpenses - ProjectExpenses - OtherExpensesFundRaisingExpenses : AsaUser
+, whenIlogintoFundRaisingExpenses , Iwanttobeabletoenterthefollowingdetails : -
+EventunderwhichIwanttosubmittheexpensesIwanttohaveadropdownwiththelistofalltheEventsfromwhereIcanselect -
+TaskunderwhichiwanttosubmittheexpensesIwanttohaveadropdownwiththelistofthesubtaskswithintheEventfromwhereIcanselect .
+ThelistofEventsandTasksmustbepulledinfromtheAffiliationmodule . - Date - EntertheDateonwhichtheexpensewasincurred -
+ExpenseProof - Uploadaminimumof 1 imageandamaximumof 5 imagesforshowingproofoftheexpense - Amount -
+Enterthevalueoftheexpense - Comments - WritecommentsabouttheexpenseIwanttobeabletodownloadeitherinExcel /
+PDForprintthedetailsofalltheexpensesthathavebeenloggedinbymeacrosseventsProjectExpenses : AsaUser ,
+whenIentertheProjectExpenses , Iwanttobeabletoenterthefollowingdetails : -
+ProjectunderwhichIwanttosubmittheexpensesIwanttohaveadropdownwiththelistofalltheprojectsthatareActivefromwhereIcanselect
+- TaskunderwhichiwanttosubmittheexpensesIwanttohaveadropdownwiththelistofthesubtaskswithintheprojectfromwhereIcanselect
+. ThelistofProjectsandTasksmustbepulledinfromtheProjectManagementmodule . - Date -
+EntertheDateonwhichtheexpensewasincurred - ExpenseProof - Uploadaminimumof 1 imageandamaximumof 5
+imagesforshowingproofoftheexpense - Amount - Enterthevalueoftheexpense - Comments -
+WritecommentsabouttheexpenseIwanttobeabletodownloadeitherinExcel /
+PDForprintthedetailsofalltheexpensesthathavebeenloggedinbymeacrossprojectsOTHEREXPENSESADVANCES : L 3 :
+Iwanttheadvancestobe : - EnabledintheexpensesTab - Theusershouldbeabletoraiseanadvancerequest -
+TheexpenserequestshouldreachtheL 4 foranapproval -
+OncetheadvanceisapprovedtheadvancewillbetransferredtotheCashBOOKAppandthesamewillreflectontheL 3 portal -
+Oncetheadvancehasreached .
+TheusercanstartexpensingandtheexpenseshavetobedeductedagainsttheadvancesandNETAdvancebalanceshouldreflectL 4 : - L 4
+shouldbeabletoedittheamountasperdiscretionandapprovetheamountandthesamewillreflectintheL 3 advanceP & LL 3 :
+Iwanttobeabletodo : - Seealltheincome & expensesofmyunitinasingleplace - Withadashboardview , TotalFundsRaised ,
+Amountpaidtocentralteam , ( Expensesandnetbalance ) - Shouldbeabletodownloadanexcelsheet - Allincomeshouldhavealltheline
+bylinetransactionsofalltheincomesandtherespectiveproofsandalltheexpenseswithacloudlinkofthetaskbills & taskreport . L 4
+: Notesontheallocation : Option 1 : - Automatedandistakencarebyrazorpayintegration ;
+wherethepaymentsaremadeandthesameisaccuratelyreflecinginthefundsraised . Option 2 : ( Manual ) -
+Gotheaffiliationincomeastheydonate . streetcause . org ; willtagallthedonationstotheAffliationandthentransfer 7 5 %
+ofthefundtotherespectiveL 3 - TOTALFUNDS : L 1 UserJourney : AsaL 1 , Iwanttobeableto -
+ViewthetotalfundsIhaveraisedasIncometilldate . - Viewatablewithdate , typeofincome ( OneTime , Recurring , Donate .
+Streetcause , PassSales ) , donorname . - DownloadtheabovetabulardetailsintoanexcelL 2 UserJourney : AsaL 2 ,
+Iwanttohavetwooptions - SELF : IntheSelfoption , IwanttohavethesamefeaturesasthatofL 1 - TEAM : Undertheteam ,
+IshouldbeabletoviewthedetailsoftheincomethathavebeengeneratedbyalltheL 1 sreportingintome .
+ThereportshouldhavedetailssuchasL 1 Name , L 1 SCID , IncomeValue , TypeofIncome , Date , etcL 3 UserJourney

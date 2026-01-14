@@ -1,0 +1,19 @@
+In Place of Privilege Management, we have Role T ree Hierarchy RoleTreeHierarchyRolelevelIncomeP &
+LCreateProjectCreateAffliationCreateRolesinAffliationCreateEventCreateExpenseGridViewremarksL 1 xL 2 xxxxxxxre -
+thinkonwhynotallthedivisionaleb ; giventheaccess ? L 3 xxxxxxL 4 xxxxxxL 5 xxxxxxxxL 6 xxxxxxxxL 7 xxxxxxxxL 8
+xxxxxxxxPrivilegeManagement : Objective : 1 . AdminPrivilege - BackendAdminPrivileges : 1 . Asanadmin ,
+Ishouldbeabletograntaccesstoanysinglemoduleorsubmoduletoanyuser , regardlessoftheirrole .
+Ishouldalsohavetheoptiontoselectmultipleusersorasingleuserandupdatetheiraccesstomodules . Additionally ,
+eachpageorviewwithineverysinglemodulewillhavecustomaccessgrantedbytheadminbasedontheuser ’ saffiliationandrole .
+Thiswillensurethateachuserhastheappropriateprivilegesforeverypagethathasbeendeveloped . 2 .
+WhenIaccesstheMembersDataandAffiliationData ,
+Ishouldbeabletoselectmultiplemembersandcheckandunchecktheirprivilegessimultaneously . Beforesubmittingtheprivileges ,
+IshouldbeabletoreviewwhatprivilegesIamupdatingandwhomIamupdatingto . ForExample : IfProject /
+EventisOnGoingandSimultaneouslytheTermYearforthataffiliationischangedthenSoheretheVolunteer ( L 3 )
+willPromotedtoVicePresident ( L 2 ) . ManagementThat : 1 . FinanceManagement (
+HewillContinuewiththesamePassbookforthetransaction , ProjectExpenseswon ’ tgetAffected ) 2 . MemberManagement :
+TheuserwillgetAccessforMemberManagementScreentoApprovethenewVolunteer ( L 3 ) . - >
+NeedtochecktheakshithdocumentbeforewritingtheBRDforthis . AffiliationMemberManagement : MemberManagementshouldbefromL 2
+- L 8 IShouldbeabletoSeeMymembersandalsoEditTheirPrivileges . AfterILoginintomyAffiliation ,
+IWillaccesstoEntertheMemberManagement , 1 . IShouldbeableselectsingleMemberorMultipleMembersandUpdatetheprivilegesforeac
+hpageorviewwithineverysinglemodulewillhavecustomaccessgranted . 2 . Ialsoneedtoseethe 3 .
